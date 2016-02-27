@@ -20,18 +20,18 @@ override the default icons and sizes. They are listed above with their defaults.
 
 Produces output similar to this:
 
-![calendar icon](https://raw.githubusercontent.com/fasteragile/fasteragile-calendar-icon/master/vendor/fasteragile-calendar-icon-sample.png)
+![icon](https://raw.githubusercontent.com/fasteragile/fasteragile-overlap/master/vendor/fasteragile-overlap-example.png)
 
 ## Installation
 
 ```
-ember install fasteragile-calendar-icon
+ember install fasteragile-overlap
 ```
 
 OR
 
 ```
-npm install fasteragile-calendar-icon
+npm install fasteragile-overlap
 ```
 
 ## Running Tests
