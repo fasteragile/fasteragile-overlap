@@ -1,17 +1,38 @@
-# Fasteragile-overlap
 
-This README outlines the details of collaborating on this Ember addon.
+# fasteragile-overlap
+
+An Ember CLI addon that provides a component to display a full/half/empty overlap icon.
+Uses font-awesome, and is configurable.
+
+The icon was designed for a mobile application using ember-cli-ratchet, but
+it should also work with webapps.
+
+## Usage
+
+```
+// In your .hbs template
+{{fa-overlap match="full|partial|none" full='fa-circle', partial='fa-adjust' none='fa-times' size='3'}}
+```
+The `match` attribute is reaquired to trigger an icon.
+
+The attributes `size`, `full`, `partial`, and `none` can be specified to
+override the default icons and sizes. They are listed above with their defaults.
+
+Produces output similar to this:
+
+![calendar icon](https://raw.githubusercontent.com/fasteragile/fasteragile-calendar-icon/master/vendor/fasteragile-calendar-icon-sample.png)
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install fasteragile-calendar-icon
+```
 
-## Running
+OR
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```
+npm install fasteragile-calendar-icon
+```
 
 ## Running Tests
 
@@ -19,8 +40,4 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember test`
 * `ember test --server`
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+Built with <3 by [FasterAgile](http://www.fasteragile.com).
