@@ -1,6 +1,6 @@
 {
   "name": "fasteragile-overlap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An ember-cli addon that implements a font-awesome based overlap indicator that uses full, half, and empty moon icons.",
   "directories": {
     "doc": "doc",

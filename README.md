@@ -13,7 +13,7 @@ it should also work with webapps.
 // In your .hbs template
 {{fa-overlap match="full|partial|none" full='fa-circle', partial='fa-adjust' none='fa-times' size='3'}}
 ```
-The `match` attribute is reaquired to trigger an icon.
+The `match` attribute is required to trigger an icon.
 
 The attributes `size`, `full`, `partial`, and `none` can be specified to
 override the default icons and sizes. They are listed above with their defaults.
